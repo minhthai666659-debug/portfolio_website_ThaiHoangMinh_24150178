@@ -1,0 +1,23 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0F0F0F;
+  color:white;
+}
+
+.hero{
+  height:100vh;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.6),
+  rgba(0,0,0,0.7)),
+  url("assets/images/nen_website.jpg");
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
