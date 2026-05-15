@@ -2,23 +2,32 @@
 <html lang="vi">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Portfolio | Thái Hoàng Minh</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <div class="blur-circle blur-1"></div>
+  <div class="blur-circle blur-2"></div>
+
   <!-- NAVBAR -->
 
-  <nav>
+  <nav class="navbar">
 
-    <h2 class="logo">MINH</h2>
+    <h2 class="logo">MINH.</h2>
 
-    <ul>
+    <ul class="nav-links">
       <li><a href="#home">Trang Chủ</a></li>
       <li><a href="#about">Giới Thiệu</a></li>
       <li><a href="#skills">Kỹ Năng</a></li>
@@ -32,60 +41,127 @@
 
   <section class="hero" id="home">
 
-    <h1>Thái Hoàng Minh</h1>
+    <div class="hero-content">
 
-    <h2>Creative Multimedia Designer</h2>
+      <span class="hero-tag">
+        CREATIVE MULTIMEDIA DESIGNER
+      </span>
 
-    <p>
-      Thiết kế trải nghiệm hình ảnh hiện đại,
-      sáng tạo và mang dấu ấn điện ảnh.
-    </p>
+      <h1>
+        Thái Hoàng Minh
+      </h1>
 
-    <button>Liên Hệ</button>
+      <h2>
+        Designing modern digital experiences & cinematic visuals.
+      </h2>
+
+      <p>
+        Portfolio cá nhân tập trung vào thiết kế hình ảnh,
+        UI/UX, branding và trải nghiệm thị giác hiện đại
+        theo phong cách cinematic & futuristic.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#projects" class="primary-btn">
+          Xem Dự Án
+        </a>
+
+        <a href="#contact" class="secondary-btn">
+          Liên Hệ
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="hero-card">
+
+      <h3>Creative Focus</h3>
+
+      <div class="card-line"></div>
+
+      <p>UI / UX Design</p>
+      <p>Poster Design</p>
+      <p>3D Visual</p>
+      <p>Photobook Layout</p>
+
+    </div>
 
   </section>
 
   <!-- ABOUT -->
 
-  <section class="about" id="about">
+  <section class="about section" id="about">
 
-    <h2>Giới Thiệu</h2>
+    <div class="section-title">
+      <span>ABOUT ME</span>
+      <h2>Giới Thiệu</h2>
+    </div>
 
-    <p>
-      Tôi là sinh viên Thiết kế Đa phương tiện với định hướng phát triển
-      trong lĩnh vực thiết kế hình ảnh, UI/UX và truyền thông sáng tạo.
-      Tôi yêu thích việc kết hợp công nghệ cùng tư duy thẩm mỹ để xây dựng
-      những sản phẩm số có chiều sâu thị giác và trải nghiệm hiện đại.
-    </p>
+    <div class="about-container">
+
+      <div class="about-text">
+
+        <p>
+          Tôi là sinh viên Thiết kế Đa phương tiện với định hướng phát triển
+          trong lĩnh vực thiết kế hình ảnh, UI/UX và truyền thông sáng tạo.
+        </p>
+
+        <p>
+          Tôi yêu thích việc kết hợp công nghệ cùng tư duy thẩm mỹ để xây dựng
+          những sản phẩm số có chiều sâu thị giác, mang cảm xúc điện ảnh và trải nghiệm hiện đại.
+        </p>
+
+      </div>
+
+      <div class="about-stats">
+
+        <div class="stat-box">
+          <h3>3+</h3>
+          <p>Dự Án Cá Nhân</p>
+        </div>
+
+        <div class="stat-box">
+          <h3>2026</h3>
+          <p>Creative Portfolio</p>
+        </div>
+
+      </div>
+
+    </div>
 
   </section>
 
   <!-- SKILLS -->
 
-  <section class="skills" id="skills">
+  <section class="skills section" id="skills">
 
-    <h2>Kỹ Năng</h2>
+    <div class="section-title">
+      <span>MY SKILLS</span>
+      <h2>Kỹ Năng</h2>
+    </div>
 
     <div class="skill-container">
 
       <div class="skill-card">
         <h3>Adobe Photoshop</h3>
-        <p>Thiết kế hình ảnh, chỉnh sửa và xử lý hậu kỳ.</p>
+        <p>Thiết kế hình ảnh, cinematic poster và chỉnh màu chuyên sâu.</p>
       </div>
 
       <div class="skill-card">
         <h3>Adobe Illustrator</h3>
-        <p>Thiết kế vector, poster và nhận diện thương hiệu.</p>
+        <p>Thiết kế vector, branding và bố cục nhận diện thương hiệu.</p>
       </div>
 
       <div class="skill-card">
         <h3>HTML / CSS</h3>
-        <p>Xây dựng giao diện website responsive hiện đại.</p>
+        <p>Xây dựng giao diện website responsive và modern UI.</p>
       </div>
 
       <div class="skill-card">
         <h3>Blender</h3>
-        <p>Thiết kế mô hình và không gian 3D cơ bản.</p>
+        <p>Thiết kế mô hình 3D và visual environment cơ bản.</p>
       </div>
 
     </div>
@@ -94,23 +170,27 @@
 
   <!-- PROJECTS -->
 
-  <section class="projects" id="projects">
+  <section class="projects section" id="projects">
 
-    <h2>Dự Án Nổi Bật</h2>
+    <div class="section-title">
+      <span>SELECTED WORKS</span>
+      <h2>Dự Án Nổi Bật</h2>
+    </div>
 
     <div class="project-container">
 
       <div class="project-card">
 
-        <img src="assets/images/project1.jpg">
+        <img src="assets/images/project1.jpg" alt="">
 
         <div class="project-content">
+
+          <span>Poster Design</span>
 
           <h3>Thiết Kế Poster Điện Ảnh</h3>
 
           <p>
-            Dự án thiết kế poster mang phong cách cinematic,
-            kết hợp Photoshop và AI để phát triển ý tưởng hình ảnh.
+            Dự án poster cinematic kết hợp Photoshop và AI để phát triển concept hình ảnh.
           </p>
 
         </div>
@@ -119,15 +199,34 @@
 
       <div class="project-card">
 
-        <img src="assets/images/project2.jpg">
+        <img src="assets/images/project2.jpg" alt="">
 
         <div class="project-content">
+
+          <span>Photobook</span>
 
           <h3>Photobook Sài Gòn Về Đêm</h3>
 
           <p>
-            Bộ photobook lấy cảm hứng từ nhịp sống đô thị,
-            sử dụng màu sắc và bố cục theo phong cách Hong Kong cinema.
+            Bộ photobook lấy cảm hứng từ nhịp sống đô thị và vibe Hong Kong cinema.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="project-card">
+
+        <img src="assets/images/nen_website.jpg" alt="">
+
+        <div class="project-content">
+
+          <span>Web Design</span>
+
+          <h3>Portfolio Website</h3>
+
+          <p>
+            Thiết kế portfolio cá nhân với phong cách futuristic và glassmorphism.
           </p>
 
         </div>
@@ -140,23 +239,42 @@
 
   <!-- CONTACT -->
 
-  <section class="contact" id="contact">
+  <section class="contact section" id="contact">
 
-    <h2>Liên Hệ</h2>
+    <div class="section-title center">
+      <span>CONTACT</span>
+      <h2>Liên Hệ</h2>
+    </div>
 
-    <p>
-      Sẵn sàng hợp tác trong các dự án sáng tạo và thiết kế đa phương tiện.
-    </p>
+    <div class="contact-box">
 
-    <p>Email: thaihoangminh@example.com</p>
+      <p>
+        Sẵn sàng hợp tác trong các dự án sáng tạo, thiết kế hình ảnh và multimedia.
+      </p>
+
+      <div class="contact-links">
+
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">GitHub</a>
+
+      </div>
+
+    </div>
 
   </section>
 
   <!-- FOOTER -->
 
   <footer>
-    © 2026 Thái Hoàng Minh Portfolio
+
+    <p>
+      © 2026 Thái Hoàng Minh — Creative Multimedia Portfolio
+    </p>
+
   </footer>
+
+  <script src="script.js"></script>
 
 </body>
 
